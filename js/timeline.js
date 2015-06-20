@@ -2,9 +2,9 @@ require.config({
     baseUrl: "js",
     paths: {
         "d3": "https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min",
-        "underscore": "https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min",
+        "backbone": "http://backbonejs.org/backbone",
+        "underscore": "http://underscorejs.org/underscore",
         "moment": "http://momentjs.com/downloads/moment",
-
     },
     "shim": {
         "d3": {
